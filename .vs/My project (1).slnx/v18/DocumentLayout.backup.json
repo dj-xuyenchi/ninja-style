@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ADMIN\\My project (1)\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\my project (1)\\assets\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\my project (1)\\assets\\script\\equipment\\equipmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\equipment\\equipmentmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\my project (1)\\assets\\heroeditor\\common\\scripts\\characterscripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\heroeditor\\common\\scripts\\characterscripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\my project (1)\\assets\\script\\equipment\\equipmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\equipment\\equipmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\my project (1)\\assets\\heroeditor\\common\\scripts\\characterscripts\\animationevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,10 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\my project (1)\\assets\\heroeditor\\common\\scripts\\editorscripts\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\heroeditor\\common\\scripts\\editorscripts\\animationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\admin\\my project (1)\\assets\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,24 +62,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AnimationEvents.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\AnimationEvents.cs",
-              "RelativeDocumentMoniker": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\AnimationEvents.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\AnimationEvents.cs",
-              "RelativeToolTip": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\AnimationEvents.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "EquipmentManager.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\Equipment\\EquipmentManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Equipment\\EquipmentManager.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\Equipment\\EquipmentManager.cs",
+              "RelativeToolTip": "Assets\\Script\\Equipment\\EquipmentManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T14:52:12.117Z",
+              "WhenOpened": "2026-05-11T15:28:52.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "EquipmentData.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\Equipment\\EquipmentData.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Equipment\\EquipmentData.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\Equipment\\EquipmentData.cs",
+              "RelativeToolTip": "Assets\\Script\\Equipment\\EquipmentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T15:16:15.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MeleeWeapon.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\ExampleScripts\\MeleeWeapon.cs",
               "RelativeDocumentMoniker": "Assets\\HeroEditor\\Common\\Scripts\\ExampleScripts\\MeleeWeapon.cs",
@@ -84,7 +105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "LayerManager.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\LayerManager.cs",
               "RelativeDocumentMoniker": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\LayerManager.cs",
@@ -97,20 +118,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\Character.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\Character.cs*",
-              "RelativeToolTip": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\Character.cs*",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAAwBUAAAAmAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\Character.cs",
+              "RelativeToolTip": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\Character.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAiwKQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-11T14:16:37.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "PassesData.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Library\\PackageCache\\com.unity.render-pipelines.core@2269be549234\\Runtime\\RenderGraph\\Compiler\\PassesData.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.render-pipelines.core@2269be549234\\Runtime\\RenderGraph\\Compiler\\PassesData.cs",
@@ -123,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "PlayerScript.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\PlayerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerScript.cs",
@@ -136,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "CharacterBodySculptor.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\CharacterBodySculptor.cs",
               "RelativeDocumentMoniker": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\CharacterBodySculptor.cs",
@@ -149,7 +170,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\Test.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Test.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\Test.cs",
+              "RelativeToolTip": "Assets\\Script\\Test.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T12:50:48.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnimationEvents.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\AnimationEvents.cs",
+              "RelativeDocumentMoniker": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\AnimationEvents.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\AnimationEvents.cs",
+              "RelativeToolTip": "Assets\\HeroEditor\\Common\\Scripts\\CharacterScripts\\AnimationEvents.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T14:52:12.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CharacterEditor.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\EditorScripts\\CharacterEditor.cs",
               "RelativeDocumentMoniker": "Assets\\HeroEditor\\Common\\Scripts\\EditorScripts\\CharacterEditor.cs",
@@ -161,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "AnimationManager.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\HeroEditor\\Common\\Scripts\\EditorScripts\\AnimationManager.cs",
               "RelativeDocumentMoniker": "Assets\\HeroEditor\\Common\\Scripts\\EditorScripts\\AnimationManager.cs",
@@ -173,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "NewMonoBehaviourScript.cs",
               "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Scenes\\NewMonoBehaviourScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\NewMonoBehaviourScript.cs",
@@ -183,18 +230,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T13:13:12.61Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Test.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\Test.cs",
-              "RelativeDocumentMoniker": "Assets\\Script\\Test.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\My project (1)\\Assets\\Script\\Test.cs",
-              "RelativeToolTip": "Assets\\Script\\Test.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T12:50:48.775Z"
             }
           ]
         }

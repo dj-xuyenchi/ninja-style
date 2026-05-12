@@ -15,6 +15,6 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
 
-        Debug.Log(animator);
+        animator.SetInteger("State", 6);
     }
 }
