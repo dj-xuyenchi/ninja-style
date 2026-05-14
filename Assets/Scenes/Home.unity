@@ -162,20 +162,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &151769608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151769602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4ae42f1bc180b7499056095e83c1033, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Test
-  Manager: {fileID: 151769609}
-  Sword: {fileID: 11400000, guid: ba2da353c3bc04741aba0b3660fb29f1, type: 2}
 --- !u!114 &151769609
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +212,32 @@ CapsuleCollider2D:
   m_Offset: {x: -0.018078506, y: 1.1299008}
   m_Size: {x: 1.4641823, y: 2.5366652}
   m_Direction: 0
+--- !u!114 &151769614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151769602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4c865ec0bbd847469e263c16e270aba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainCharactorController
+--- !u!114 &151769615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151769602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4ae42f1bc180b7499056095e83c1033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Test
+  Manager: {fileID: 151769609}
+  Sword: {fileID: 0}
 --- !u!1001 &259877941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -288,26 +300,6 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 1214200183765806269, guid: af40f4706b2b3454d920432b897349a2, type: 3}
   m_PrefabInstance: {fileID: 1057672937}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &922571838 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4648761048258582271, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
-  m_PrefabInstance: {fileID: 1670213799}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &922571842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922571838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3dca8a22af0a9de4e8307fd3e256428a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
-  shirtRenderer: {fileID: 0}
-  newShirt: {fileID: 0}
-  animator: {fileID: 0}
 --- !u!1001 &1057672937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1996,13 +1988,13 @@ PrefabInstance:
       addedObject: {fileID: 151769609}
     - targetCorrespondingSourceObject: {fileID: 4815843659560900452, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 151769608}
+      addedObject: {fileID: 151769610}
     - targetCorrespondingSourceObject: {fileID: 4815843659560900452, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 151769610}
-    - targetCorrespondingSourceObject: {fileID: 4648761048258582271, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
+      addedObject: {fileID: 151769614}
+    - targetCorrespondingSourceObject: {fileID: 4815843659560900452, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 922571842}
+      addedObject: {fileID: 151769615}
   m_SourcePrefab: {fileID: 100100000, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
 --- !u!1 &1702258208
 GameObject:

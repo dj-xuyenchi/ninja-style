@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Test : MonoBehaviour
@@ -6,9 +7,20 @@ public class Test : MonoBehaviour
     public EquipmentManager Manager;
 
     public EquipmentData Sword;
+    List<EquipmentData> equipments;
 
     void Start()
     {
-        Manager.Equip(Sword);
+        equipments = new List<EquipmentData>(
+        Resources.LoadAll<EquipmentData>(
+    "Equipment/VuKhi/Kiem"
+    )
+      );
+       
+    }
+    void Update()
+    {
+        EquipmentData kiemGiSet = equipments.Find(e => e.Id == "kiem_001");
+        Manager.Equip(kiemGiSet);
     }
 }
