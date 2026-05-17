@@ -6,13 +6,21 @@
 [Ll]ogs/
 UserSettings/
 
-MemoryCaptures/
-
-.vscode/
+.vs/
 .idea/
+.gradle/
 
 *.csproj
 *.unityproj
 *.sln
 *.suo
 *.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
