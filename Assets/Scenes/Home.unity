@@ -229,6 +229,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4c865ec0bbd847469e263c16e270aba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MainCharactorController
+  speed: 5
 --- !u!114 &151769615
 MonoBehaviour:
   m_ObjectHideFlags: 0

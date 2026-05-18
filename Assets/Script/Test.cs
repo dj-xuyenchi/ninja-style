@@ -23,4 +23,5 @@ public class Test : MonoBehaviour
         EquipmentData kiemGiSet = equipments.Find(e => e.Id == "kiem_001");
         Manager.Equip(kiemGiSet);
     }
+  
 }
