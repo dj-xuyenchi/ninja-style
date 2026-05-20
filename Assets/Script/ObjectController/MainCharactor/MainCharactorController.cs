@@ -7,41 +7,53 @@ public class MainCharactorController : MonoBehaviour
     private Animator animator;
     private EquipmentService equipmentService;
     private Rigidbody2D rigidbody2D;
-    public float speed = 5f;
-    private float moveX;
+    private DiChuyenService diChuyenService;
+    private NhayService nhayService;
+    [SerializeField]
+    private float moveSpeed = 5f;
+
+    [SerializeField]
+    private float jumpForce = 10f;
+    [SerializeField]
+    private float fallMultiplier = 3f;
+
+    [SerializeField]
+    private float lowJumpMultiplier = 2f;
+
+    [SerializeField]
+    private Transform groundCheck;
+
+    [SerializeField]
+    private LayerMask groundLayer;
     void Start()
     {
-        animator =  GetComponentInChildren<Animator>();
+        animator = GetComponentInChildren<Animator>();
         rigidbody2D = GetComponent<Rigidbody2D>();
+        diChuyenService = new DiChuyenService(rigidbody2D, animator, transform, moveSpeed);
+        nhayService = new NhayService(animator,
+            rigidbody2D,
+            groundCheck,
+            groundLayer,
+            jumpForce,
+    fallMultiplier,lowJumpMultiplier
+);
     }
 
     // Update is called once per frame
     void Update()
     {
-        OnMove();
-    }
-    void OnMove()
-    {
-        moveX = Input.GetAxisRaw("Horizontal");
-        if (moveX == 0)
-        {
-            animator.SetInteger("State", 0);
-        }
-        if (moveX > 0)
-        {
-            animator.SetInteger("State", 1);
-            transform.localScale = new Vector3(1, 1, 1);
-        }
+        float moveX = Input.GetAxisRaw("Horizontal");
 
-        if (moveX < 0)
-        {
-            animator.SetInteger("State", 1);
-            transform.localScale = new Vector3(-1, 1, 1);
-        }
+        diChuyenService.HandleInput(moveX);
+        bool jumpPressed = Input.GetButtonDown("Jump");
+        bool holdingJump = Input.GetButton("Jump");
 
+        nhayService.HandleInput(jumpPressed, holdingJump);
     }
+
     void FixedUpdate()
     {
-        rigidbody2D.linearVelocity = new Vector2(moveX * speed, rigidbody2D.linearVelocity.y);
+        diChuyenService.FixedMove();
+        nhayService.FixedJump();
     }
 }
