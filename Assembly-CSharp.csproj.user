@@ -8,7 +8,16 @@
     <Compile Update="Assets\Script\ObjectController\MainCharactor\DiChuyenService.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Assets\Script\ObjectController\MainCharactor\HealthHandler.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Script\ObjectController\MainCharactor\TanCong.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Assets\Script\ObjectController\MainCharactor\NhayService.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Assets\Script\Skill\CauLua\CauLuaController.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
