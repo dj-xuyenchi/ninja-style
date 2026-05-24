@@ -1,5 +1,6 @@
-﻿using UnityEngine;
+﻿using Assets.Script.ObjectController.MainCharactor;
 using System.Collections;
+using UnityEngine;
 
 namespace Assets.Script.Skill.CauLua
 {
@@ -9,6 +10,8 @@ namespace Assets.Script.Skill.CauLua
         public float speed = 10f;
 
         private Rigidbody2D rb;
+        public int damage = 20;
+        private GameObject charactorAction;
 
         void Awake()
         {
@@ -18,6 +21,36 @@ namespace Assets.Script.Skill.CauLua
         public void SetDirection(float direction)
         {
             rb.linearVelocity = new Vector2(direction * speed, 0f);
+        }
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            // bỏ qua người bắn
+            if (collision.gameObject == charactorAction)
+            {
+                return;
+            }
+
+            if (collision.CompareTag("Player"))
+            {
+                HealthHandler enemy =
+                    collision.GetComponent<HealthHandler>();
+
+                if (enemy != null)
+                {
+                    enemy.TakeDamage(damage);
+                }
+
+                Destroy(gameObject);
+            }
+        }
+
+        private void Start()
+        {
+            Destroy(gameObject, 3f);
+        }
+        public void SetOwner(GameObject ownerObject)
+        {
+            charactorAction = ownerObject;
         }
     }
 }
