@@ -11,5 +11,6 @@ public class StateConstant
         public const int IDLE = 0;
         public const int RUN = 1;
         public const int JUMP = 2;
+        public const int HITED = 3;
     }
 }

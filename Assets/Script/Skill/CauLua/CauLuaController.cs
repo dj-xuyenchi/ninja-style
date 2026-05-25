@@ -1,11 +1,12 @@
 ﻿using Assets.Script.ObjectController.MainCharactor;
 using System.Collections;
 using UnityEngine;
+using static StateConstant;
 
 namespace Assets.Script.Skill.CauLua
 {
-	public class CauLuaController: MonoBehaviour
-	{
+    public class CauLuaController : MonoBehaviour
+    {
 
         public float speed = 10f;
 
@@ -39,11 +40,22 @@ namespace Assets.Script.Skill.CauLua
                 {
                     enemy.TakeDamage(damage);
                 }
+                Animator animator =
+            collision.transform.root
+        .GetComponentInChildren<Animator>();
 
+                if (animator != null)
+                {
+                    animator.SetTrigger(
+                        "AnDon"
+                    );
+                   
+                }
                 Destroy(gameObject);
             }
         }
-
+      
+        
         private void Start()
         {
             Destroy(gameObject, 3f);

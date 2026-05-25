@@ -10,7 +10,7 @@ namespace Assets.Script.ObjectController.MainCharactor
         private Transform transform;
         private float moveX; 
         private readonly float speed;
-        public DiChuyenService(Rigidbody2D rigidbody2D, Animator animator, Transform transform, float speed)
+        public DiChuyenService(Rigidbody2D rigidbody2D, Animator animator, Transform transform, float speed,GameObject owner)
         {
             this.rigidbody2D = rigidbody2D;
             this.animator = animator;

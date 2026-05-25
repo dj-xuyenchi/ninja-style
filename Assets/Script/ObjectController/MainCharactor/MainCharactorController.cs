@@ -33,15 +33,8 @@ public class MainCharactorController : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
         rigidbody2D = GetComponent<Rigidbody2D>();
-        diChuyenService = new DiChuyenService(rigidbody2D, animator, transform, moveSpeed);
-        nhayService = new NhayService(animator,
-            rigidbody2D,
-            groundCheck,
-            groundLayer,
-            jumpForce,
-            fallMultiplier,
-            lowJumpMultiplier
-         );
+        diChuyenService = new DiChuyenService(rigidbody2D, animator, transform, moveSpeed, gameObject);
+        nhayService = new NhayService(animator, rigidbody2D, groundCheck, groundLayer, jumpForce, fallMultiplier, lowJumpMultiplier);
         tanCongService = new TanCongService(gameObject);
     }
 
@@ -49,7 +42,7 @@ public class MainCharactorController : MonoBehaviour
     void Update()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
-
+        Debug.Log("STATE_HASH: " + animator.GetInteger(StateConstant.STATE_HASH));
         diChuyenService.HandleInput(moveX);
         bool jumpPressed = Input.GetButtonDown("Jump");
         bool holdingJump = Input.GetButton("Jump");
