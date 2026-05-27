@@ -3,7 +3,7 @@ using Assets.Script.Skill.CauLua;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Assets.Script.ObjectController.MainCharactor
+namespace Assets.Script.ObjectController.Player
 {
     public class TanCongService
     {

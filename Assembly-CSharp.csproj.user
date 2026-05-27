@@ -2,22 +2,13 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="Assets\Script\ObjectController\MainCharactor\EquipmentService.cs">
+    <Compile Update="Assets\Script\AbstractHanldler\IHealthHandler.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Assets\Script\ObjectController\MainCharactor\DiChuyenService.cs">
+    <Compile Update="Assets\Script\Constant\StatEnum.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Assets\Script\ObjectController\MainCharactor\HealthHandler.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Assets\Script\ObjectController\MainCharactor\TanCongService.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Assets\Script\ObjectController\MainCharactor\NhayService.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Assets\Script\Skill\CauLua\CauLuaController.cs">
+    <Compile Update="Assets\Script\Domain\DTO\Stat\UserChakraRequest.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

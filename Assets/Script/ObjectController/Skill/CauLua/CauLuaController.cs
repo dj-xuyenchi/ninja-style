@@ -1,5 +1,4 @@
-﻿using Assets.Script.ObjectController.MainCharactor;
-using System.Collections;
+﻿using System.Collections;
 using UnityEngine;
 using static StateConstant;
 
@@ -33,13 +32,9 @@ namespace Assets.Script.Skill.CauLua
 
             if (collision.CompareTag("Player"))
             {
-                HealthHandler enemy =
-                    collision.GetComponent<HealthHandler>();
+               
 
-                if (enemy != null)
-                {
-                    enemy.TakeDamage(damage);
-                }
+              
                 Animator animator =
             collision.transform.root
         .GetComponentInChildren<Animator>();

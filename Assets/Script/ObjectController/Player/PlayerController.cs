@@ -1,7 +1,7 @@
-using Assets.Script.ObjectController.MainCharactor;
+using Assets.Script.ObjectController.Player;
 using UnityEngine;
 
-public class MainCharactorController : MonoBehaviour
+public class PlayerController: MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private Animator animator;
@@ -11,11 +11,13 @@ public class MainCharactorController : MonoBehaviour
     private DiChuyenService diChuyenService;
     private NhayService nhayService;
     private TanCongService tanCongService;
+
     [SerializeField]
     private float moveSpeed = 5f;
 
     [SerializeField]
     private float jumpForce = 10f;
+
     [SerializeField]
     private float fallMultiplier = 3f;
 
@@ -27,8 +29,10 @@ public class MainCharactorController : MonoBehaviour
 
     [SerializeField]
     private LayerMask groundLayer;
+
     [SerializeField]
     private Transform firePoint;
+
     void Start()
     {
         animator = GetComponentInChildren<Animator>();
@@ -56,4 +60,5 @@ public class MainCharactorController : MonoBehaviour
         diChuyenService.FixedMove();
         nhayService.FixedJump();
     }
+
 }

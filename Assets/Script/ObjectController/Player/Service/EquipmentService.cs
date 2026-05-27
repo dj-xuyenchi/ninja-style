@@ -1,6 +1,6 @@
 ﻿using Assets.HeroEditor.Common.Scripts.CharacterScripts;
 
-namespace Assets.Script.ObjectController.MainCharactor
+namespace Assets.Script.ObjectController.Player
 {
 	public class EquipmentService
 	{

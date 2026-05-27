@@ -464,6 +464,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5108285985879442884, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
   m_PrefabInstance: {fileID: 1670213799}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &151769621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151769602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b917b75f748fc3448d25eed15d907fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Assets.Script.ObjectController.Player.HealthService
+  maxHp: 100
+  currentHp: 0
+  maxChakra: 100
+  currentChakra: 0
 --- !u!1 &348298544
 GameObject:
   m_ObjectHideFlags: 0
@@ -2820,6 +2836,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4815843659560900452, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
       insertIndex: -1
       addedObject: {fileID: 151769614}
+    - targetCorrespondingSourceObject: {fileID: 4815843659560900452, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 151769621}
   m_SourcePrefab: {fileID: 100100000, guid: 3f074f9be4a340d4ab4ab5c056294325, type: 3}
 --- !u!1 &1702258208
 GameObject:
