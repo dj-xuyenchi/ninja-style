@@ -32,25 +32,24 @@ namespace Assets.Script.Skill.CauLua
 
             if (collision.CompareTag("Player"))
             {
-               
 
-              
-                Animator animator =
-            collision.transform.root
-        .GetComponentInChildren<Animator>();
+                Animator animator = collision
+                    .transform
+                    .root
+                    .GetComponentInChildren<Animator>();
 
                 if (animator != null)
                 {
                     animator.SetTrigger(
                         "AnDon"
                     );
-                   
+
                 }
                 Destroy(gameObject);
             }
         }
-      
-        
+
+
         private void Start()
         {
             Destroy(gameObject, 3f);
